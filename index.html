@@ -13,20 +13,21 @@
   <link rel="stylesheet" href="output.css" />
   <style>
   #bgCanvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    pointer-events: none;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
 </style>
 </head>
 
 <body class="bg-black z-10 text-white">
   <section class="flex flex-col justify-between h-screen ">
-    <header class="flex items-center justify-between w-full px-4 mt-4 max-w- mx-auto">
+     <div id="three-container" class="absolute top-0 left-0 w-full h-full z-0"></div>
+    <header class="flex items-center justify-between w-full px-4 mt-4 max-w- mx-auto"><p class="text-2xl">Home</p>
       <!-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 416 368" fill="none">
         <path
         d="M324.632 203.212L324.632 349.142L172.233 208.765M324.632 203.212L292.769 203.298M324.632 203.212L347.614 203.298L390.733 170.82L324.632 170.82M172.233 208.765L127.777 170.672L167.233 170.82M172.233 208.765L65.0568 317.038L20.1163 317.038L147.215 188.868M210.233 170.82L292.769 96.2119L292.769 170.82M210.233 170.82L292.769 170.82M210.233 170.82L167.233 170.82M292.769 203.298L220.578 202.834L292.769 270.798L292.769 203.298ZM292.769 170.82L324.632 170.82M167.233 170.82L325.868 20.1441L324.632 170.82"
@@ -157,7 +158,108 @@
       </button>
     </div>
   </section>
+<section class="max-w-screen-xl mx-auto px-4">
+      <h2
+        class="text-4xl w-max mx-auto text-center text-[#1788ae] border-b-2 border-[#1788ae]"
+      >
+        Latest Works
+      </h2>
+      <div class="flex gap-[80px] items-center mt-12">
+        <a href="#" class="w-full">
+          <img
+            class="max-w-[400px] mr-auto"
+            src="https://anuragsinghbam.netlify.app/images/harigurus.webp"
+            alt=""
+          />
+        </a>
+        <div class="w-full">
+          <h3 class="text-[#fc815c] font-bold text-4xl">Harigurus</h3>
+          <span class="text-[#fc815c] text-lg">(Event Booking)</span>
+          <p class="text-justify mt-2">
+            HariGurus is a one-stop-shop for all Hindu religious, customs and
+            traditional requirements. Built the complete site from scratch.
+          </p>
 
+          <ul class="flex flex-wrap gap-2 mt-2">
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #react.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #express.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #node.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #swiper.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #mongoDB
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #mongoose
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #css
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #javascript
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #figma
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex gap-[80px] items-center mt-12">
+        <div class="w-full">
+          <h3 class="text-[#ffe578] font-bold text-4xl">EazyGrad</h3>
+          <span class="text-[#ffe578] text-lg">(EdTech Startup)</span>
+          <p class="text-justify mt-2">
+            Being a lead developer, revamped the site to a highly responsive,
+            and interactive website. Created new features and pages. Worked as a
+            team with product manager and ux designer.
+          </p>
+
+          <ul class="flex flex-wrap gap-2 mt-2">
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #react.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #express.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #node.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #swiper.js
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #mongoDB
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #mongoose
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #css
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #javascript
+            </li>
+            <li class="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+              #figma
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="w-full">
+          <img
+            class="max-w-[400px] ml-auto"
+            src="https://anuragsinghbam.netlify.app/images/eazygrad.webp"
+            alt=""
+          />
+        </a>
+      </div>
+    </section>
   <script>
    
 const scene = new THREE.Scene();
